@@ -1,2 +1,2 @@
-# Aerodynamic-Analysis-NACA-CFD
-Complete CFD workflow: 3D design of a NACA wing profile using CATIA V5 (GSD), ensuring surface integrity via checkSurface in OpenFOAM. Implementation of a robust, incompressible, steady-state simulation with a 3M cell mesh. Final validation through aerodynamic post-analysis of pressure and velocity. No turbulence model applied.
+# Aerodynamic-Analysis-NACA-CFD (first 
+Development of an end-to-end CFD workflow for a NACA airfoil starting with 3D CAD modeling in CATIA V5 (GSD). Executed numerical simulations in OpenFOAM, implementing mesh refinement iterations to resolve boundary layer gradients and wake behavior accurately. Achieved residual convergence down to 10−6 in simpleFoam, validating pressure distribution and velocity profiles in ParaView. 
